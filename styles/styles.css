@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: rgb(19, 19, 24);
+    --secondaryColor: rgba(19, 19, 24, 0.7);
+    --whiteColor: rgb(255, 255, 255);
+    --btnColor: rgb(255, 84, 0);
+}
+
+.btn-primary {
+    display: inline-block;
+    color: var(--whiteColor);
+    border-radius: 8px;
+    background-color: var(--btnColor);
+    padding: 14px 25px;
+    border: none;
+}
+
+/* start */
+/* navigation bar */
+header {
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 140px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navber ul {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: 55px;
+}
+
+.span {
+    color: var(--btnColor);
+}
+
+.nav-logo h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navber ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondaryColor);
+}
+
+/* banner1 */
+.hero-section1 {
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 0 140px;
+    padding: 100px 200px;
+
+
+}
+
+.banner-tittle {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--whiteColor);
+    padding: 0;
+}
+
+.banner-discription {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--whiteColor);
+    margin-top: 24px;
+}
+
+
+.option {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--whiteColor);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    padding: 15px;
+}
+
+.choose-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    height: 84px;
+    margin-top: 65px;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 174px;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* banner-2 */
+.hero-section2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 140px;
+    margin-top: 100px;
+
+}
+
+.banner-tittle-2 {
+    font-size: 2.5rem;
+    color: var(--primaryColor);
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.banner-discription2 {
+    font-size: 1rem;
+    font-weight: 400px;
+    color: var(--secondaryColor);
+    line-height: 24px;
+
+}
+
+.banner-discription2 p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.banner-discription2 li {
+    margin-bottom: 16px;
+}
+
+.banner-discription2 button {
+    margin-top: 30px;
+}
+
+/* main */
+/* grid-section */
+.gellary {
+    margin: 0 150px;
+    margin-top: 100px;
+}
+
+.aa {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.desh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 800px;
+    color: white;
+}
+
+.box-1 {
+    background-image: url(/images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 576px;
+    height: 300px;
+
+}
+
+.box-2 {
+    background-image: url(/images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+
+}
+
+.box-3 {
+    background-image: url(/images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 376px;
+    height: 286px;
+
+}
+
+.box-4 {
+    background-image: url(/images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 474px;
+    height: 286px;
+}
+
+.box-5 {
+    background-image: url(/images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+    height: 286px;
+}
+
+.box-6 {
+    background-image: url(/images/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 576px;
+    height: 300px;
+}
+
+.box-7 {
+    background-image: url(/images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 576px;
+    height: 300px;
+}
+
+/* section-2 */
+.choose-section {
+    margin: 0 140px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.choose-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.choose-tittle{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+i{
+    size: 64px;
+    height: 64px;
+}
+
+.choose1,
+.choose2 {
+    width: 573px;
+    height: 284px;
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    padding: 35px;
+}
+
+.choose3 {
+    width: 573px;
+    height: 284px;
+    background-color: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    position: absolute;
+    right: 450px;
+    margin-top: 25px;
+    padding: 35px;
+}
